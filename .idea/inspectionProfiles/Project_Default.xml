@@ -2,5 +2,23 @@
   <profile version="1.0">
     <option name="myName" value="Project Default" />
     <inspection_tool class="CssInvalidAtRule" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="aria-hidden" />
+            <item index="1" class="java.lang.String" itemvalue="x-data" />
+            <item index="2" class="java.lang.String" itemvalue=":class" />
+            <item index="3" class="java.lang.String" itemvalue="@click" />
+            <item index="4" class="java.lang.String" itemvalue=":aria-pressed" />
+            <item index="5" class="java.lang.String" itemvalue="x-state:off" />
+            <item index="6" class="java.lang.String" itemvalue="x-state:on" />
+            <item index="7" class="java.lang.String" itemvalue="x-bind:aria-expanded" />
+            <item index="8" class="java.lang.String" itemvalue="x-description" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
   </profile>
 </component>
